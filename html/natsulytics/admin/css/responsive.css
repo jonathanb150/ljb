@@ -1,0 +1,13 @@
+@media(max-width:1200px) {
+    .web_analytics_grid .col {
+        display: inline-block;
+        flex-basis: unset;
+        max-width: 50%;
+    }
+}
+
+@media(max-width:576px) {
+    .web_analytics_grid .col {
+        max-width: 100%;
+    }
+}

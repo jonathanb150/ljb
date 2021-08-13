@@ -1,0 +1,32 @@
+/* BODY */
+
+body {
+    background: #343a40 !important;
+}
+
+/* HEAD */
+
+.navbar i {
+    margin-right: 0.2em;
+}
+
+/* ANALYTICS */
+
+.web_analytics_grid ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.web_analytics_grid ul li {
+    margin-bottom: 0.5em;
+}
+
+.web_analytics_grid .col {
+    max-width: 25%;
+}
+
+.web_analytics_grid li span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

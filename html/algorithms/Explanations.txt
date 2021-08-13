@@ -1,0 +1,31 @@
+recommended
+expected price: expected price in 3 years based on current PE and last 3 years financial changes
+truePrice: stock real value based on on current PE and last year's financial changes
+target price: expected price in 6-12 months based on PE and financial changes
+short term resistance: 100 day SMA price
+long term resistance: 200 day SMA price
+ROI: last year ROI
+Stochastic: 14  day stochastic
+safety --> safety level: measurement of how risky the company is based on revenues, profits,debt,cash and roi in the last year. 12 being extremely safe and 0 very risky
+
+stock analysis:
+You should be getting roi and roi3 in Json. --> add those to second table.
+add to first table 'Current RoI' which corresponds to currentRoi in json
+
+vol: change in vol in last 60 trading days. Can be Low , High or Medium
+stoch: change in 14 day stoch in last 60 trading days. Can be Low , High or Medium
+Strong Buy: SMAs intersectation above 200 SMA. Good buying opportunity.
+Buying Momentum: shows wether poeple are currently buying or not. Usually is better to  wait for the stock to get oversold before buying 
+expected price: expected price in 3 years based on current PE and last 3 years financial changes
+truePrice: stock real value based on on current PE and last year's financial changes
+
+price --> change for current price
+risk --> change for safety level: measurement of how risky the company is based on revenues, profits,debt,cash and roi. 12 being extremely safe and 0 being very risky
+
+index analysis:
+cant see table rn, but descriptions will be similar to stock analysis
+
+Sort stocks: --> try this order
+Analyze biggest X stocks by Y --> add Market Cap option
+Sort by change in Z in the last W years
+Include companies in sectors: 
